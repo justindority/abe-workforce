@@ -1,0 +1,210 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Macbook Amateur",
+            "year": 1990
+        },
+        {
+            "id": 3,
+            "model": "Motorola RAZR",
+            "year": 2001
+        },
+        {
+            "id": 4,
+            "model": "Nintendo Gamecube",
+            "year": 2004
+        },
+        {
+            "id": 5,
+            "model": "ASUS WEH3jhF3",
+            "year": 2019
+        },
+        {
+            "id": 6,
+            "model": "Book",
+            "year": 1209
+        },
+        {
+            "id": 7,
+            "model": "Computer",
+            "year": 1822
+        }
+
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "computerId": 3,
+            "departmentId": 1,
+            "officeId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "Eric",
+            "lastName": "Thomas",
+            "computerId": 4,
+            "departmentId": 2,
+            "officeId": 1
+        },
+        {
+            "id": 3,
+            "firstName": "Jeremy",
+            "lastName": "Jeremy",
+            "computerId": 5,
+            "departmentId": 3,
+            "officeId": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Tim",
+            "lastName": "Apple",
+            "computerId": 2,
+            "departmentId": 4,
+            "officeId": 2
+        },
+        {
+            "id": 5,
+            "firstName": "Crocodile",
+            "lastName": "Dundee",
+            "computerId": 6,
+            "departmentId": 5,
+            "officeId": 3
+        },
+        {
+            "id": 6,
+            "firstName": "Todd",
+            "lastName": "Bonzales",
+            "computerId": 1,
+            "departmentId": 2,
+            "officeId": 2
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "Famous-Barr"
+        },
+        {
+            "id": 2,
+            "name": "Kohl's"
+        },
+        {
+            "id": 3,
+            "name": "Macy's"
+        },
+        {
+            "id": 4,
+            "name": "Dillard's"
+        },
+        {
+            "id": 5,
+            "name": "JD Penney"
+        }
+    ],
+    "offices": [
+        {
+            "id": 1,
+            "name": "Nashville"
+        },
+        {
+            "id": 2,
+            "name": "Memphis"
+        },
+        {
+            "id": 3,
+            "name": "Atlanta"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Juniper Distribution"
+        },
+        {
+            "id": 2,
+            "name": "Eric Carle"
+        },
+        {
+            "id": 3,
+            "name": "Michael Truck"
+        },
+        {
+            "id": 4,
+            "name": "Concrete Halloween"
+        },
+        {
+            "id": 5,
+            "name": "James Pants"
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 1
+        },
+        {
+            "id": 2,
+            "customerId": 2,
+            "employeeId": 1
+        },
+        {
+            "id": 3,
+            "customerId": 2,
+            "employeeId": 2
+        },
+        {
+            "id": 4,
+            "customerId": 3,
+            "employeeId": 2
+        },
+        {
+            "id": 5,
+            "customerId": 3,
+            "employeeId": 3
+        },
+        {
+            "id": 6,
+            "customerId": 4,
+            "employeeId": 3
+        },
+        {
+            "id": 7,
+            "customerId": 4,
+            "employeeId": 4
+        },
+        {
+            "id": 8,
+            "customerId": 5,
+            "employeeId": 4
+        },
+        {
+            "id": 9,
+            "customerId": 5,
+            "employeeId": 5
+        },
+        {
+            "id": 10,
+            "customerId": 2,
+            "employeeId": 5
+        },
+        {
+            "id": 11,
+            "customerId": 1,
+            "employeeId": 6
+        },
+        {
+            "id": 12,
+            "customerId": 3,
+            "employeeId": 6
+        }
+    ]
+}
